@@ -1,0 +1,321 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Страница — 1" id="3ipa7gFDa1NtXpKRQQX4">
+    <mxGraphModel dx="2177" dy="1967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JNCBEwlya2eb7LY5L15N-92" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="160" width="2250" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-13" target="JNCBEwlya2eb7LY5L15N-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-65" value="результаты анализов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-64">
+          <mxGeometry x="-0.1478" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-13" target="JNCBEwlya2eb7LY5L15N-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1980" y="1280" />
+              <mxPoint x="875" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-90" value="логи" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-84">
+          <mxGeometry x="0.2762" y="-5" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-13" value="&lt;b&gt;Сервис интеграции с лабораторией&lt;/b&gt;&lt;div&gt;(Java/Python)&lt;br&gt;[API интеграции]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="750" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="910" width="320" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-22">
+          <mxGeometry width="320" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-19" value="API платежного шлюза&lt;div&gt;(Java/Python)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-22">
+          <mxGeometry x="38" y="60" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="JNCBEwlya2eb7LY5L15N-22" source="JNCBEwlya2eb7LY5L15N-20" target="JNCBEwlya2eb7LY5L15N-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-20" value="База данных платежей&lt;div&gt;&amp;nbsp;(PostgreSQL/MySQL, шифрование, токенизация)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-22">
+          <mxGeometry x="51.5" y="150" width="136" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-21" value="&lt;b&gt;Сервис платежей&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-22">
+          <mxGeometry x="170" y="10" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="730" y="320" width="330" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-27">
+          <mxGeometry width="330" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-24" value="Keycloak/Auth0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-27">
+          <mxGeometry x="50" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-25" value="База данных пользователей&lt;div&gt;&amp;nbsp;(PostgreSQL/MySQL, шифрование)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-27">
+          <mxGeometry x="50" y="165" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-26" value="&lt;b&gt;Сервис аутентификации и авторизации&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-27">
+          <mxGeometry x="120" y="15" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="JNCBEwlya2eb7LY5L15N-27" source="JNCBEwlya2eb7LY5L15N-24" target="JNCBEwlya2eb7LY5L15N-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1220" y="850" width="430" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-32" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-36">
+          <mxGeometry width="430" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-33" value="&lt;b&gt;Сервис хранения медицинских данных&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-36">
+          <mxGeometry x="130" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-34" value="Хранилище медицинских карт&lt;div&gt;&amp;nbsp;(зашифрованное хранилище файлов)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-36">
+          <mxGeometry x="50" y="130" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-35" value="Хранилище результатов анализов&lt;div&gt;&amp;nbsp;(зашифрованное хранилище файлов)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-36">
+          <mxGeometry x="250" y="130" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-37" value="Лаборатория (API)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="750" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-38" target="JNCBEwlya2eb7LY5L15N-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-68" value="данные об оплате" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-67">
+          <mxGeometry x="0.0432" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-38" value="Платежный шлюз (API)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1000" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-39" value="Клиент&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-47" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="130" y="220" width="450" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-5" value="&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-47">
+          <mxGeometry width="450" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="JNCBEwlya2eb7LY5L15N-47" source="JNCBEwlya2eb7LY5L15N-1" target="JNCBEwlya2eb7LY5L15N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-1" value="Веб-приложение&lt;br&gt;(Angular/React)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-47">
+          <mxGeometry x="70" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="JNCBEwlya2eb7LY5L15N-47" source="JNCBEwlya2eb7LY5L15N-2" target="JNCBEwlya2eb7LY5L15N-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-2" value="API-шлюз&lt;div&gt;(NGINX/Traefik)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-47">
+          <mxGeometry x="70" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-3" value="Сервис записи на прием&lt;div&gt;(Java/Python)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-47">
+          <mxGeometry x="70" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-4" value="База данных пациентов&lt;div&gt;(PostgreSQL/MySQL, шифрование)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-47">
+          <mxGeometry x="260" y="270" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-6" value="&lt;b&gt;Веб-портал для клиентов&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-47">
+          <mxGeometry x="240" y="10" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="JNCBEwlya2eb7LY5L15N-47" source="JNCBEwlya2eb7LY5L15N-3" target="JNCBEwlya2eb7LY5L15N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-39" target="JNCBEwlya2eb7LY5L15N-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="-50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-42" value="- PII (ФИО, телефон, email),&amp;nbsp;&lt;div&gt;данные записи на прием&lt;br&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- подтверждение записи, &lt;br&gt;медицинские данные&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-41">
+          <mxGeometry x="-0.0747" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-48" value="Сотрудник ресепшена" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="-120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-51" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="650" y="970" width="300" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-51">
+          <mxGeometry width="300" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-29" value="&lt;b&gt;Сервис аудита&lt;/b&gt;&lt;div&gt;&amp;nbsp;(Elasticsearch/Splunk)&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-51">
+          <mxGeometry x="120" y="20" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-30" value="Обработчик" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-51">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-31" value="БД" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-51">
+          <mxGeometry x="70" y="170" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-1" target="JNCBEwlya2eb7LY5L15N-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-69" value="- учетные данные пользователя&lt;br&gt;- статус аутентификации" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-52">
+          <mxGeometry x="0.1105" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-61" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1190" y="230" width="490" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-7" value="&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;container=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-61">
+          <mxGeometry width="490" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="JNCBEwlya2eb7LY5L15N-61" source="JNCBEwlya2eb7LY5L15N-8" target="JNCBEwlya2eb7LY5L15N-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-8" value="Веб-приложение&lt;br&gt;(Angular/React)" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-61">
+          <mxGeometry x="69.99777777777786" y="35" width="133.33333333333334" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="JNCBEwlya2eb7LY5L15N-61" source="JNCBEwlya2eb7LY5L15N-9" target="JNCBEwlya2eb7LY5L15N-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-9" value="API-шлюз&lt;div&gt;(NGINX/Traefik)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-61">
+          <mxGeometry x="69.99777777777786" y="167" width="133.33333333333334" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-10" value="Сервис управления записями&lt;br&gt;&lt;div&gt;(Java/Python)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-61">
+          <mxGeometry x="69.99777777777786" y="295" width="133.33333333333334" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-11" value="База данных записей&lt;br&gt;&lt;div&gt;(PostgreSQL/MySQL, шифрование)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-61">
+          <mxGeometry x="289.99666666666667" y="278.5" width="155.55555555555557" height="99.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-12" value="&lt;b&gt;Веб-портал для сотрудников ресепшена&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="JNCBEwlya2eb7LY5L15N-61">
+          <mxGeometry x="270.0011111111112" y="12" width="166.66666666666669" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="JNCBEwlya2eb7LY5L15N-61" source="JNCBEwlya2eb7LY5L15N-10" target="JNCBEwlya2eb7LY5L15N-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-48" target="JNCBEwlya2eb7LY5L15N-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-54" value="данные записей,&amp;nbsp;&lt;div&gt;данные пациентов&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-53">
+          <mxGeometry x="-0.109" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-8" target="JNCBEwlya2eb7LY5L15N-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-70" value="- учетные данные пользователя&lt;br&gt;- статус аутентификации" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-58">
+          <mxGeometry x="-0.1492" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-10" target="JNCBEwlya2eb7LY5L15N-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-76" value="карты пациентов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-62">
+          <mxGeometry x="0.0803" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=0;endArrow=none;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-13" target="JNCBEwlya2eb7LY5L15N-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-66" value="результаты анализов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-63">
+          <mxGeometry x="-0.0416" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-1" target="JNCBEwlya2eb7LY5L15N-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="295" />
+              <mxPoint y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-19" target="JNCBEwlya2eb7LY5L15N-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="196" y="670" />
+              <mxPoint x="650" y="670" />
+              <mxPoint x="650" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-8" target="JNCBEwlya2eb7LY5L15N-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="315" />
+              <mxPoint x="1110" y="710" />
+              <mxPoint x="274" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-3" target="JNCBEwlya2eb7LY5L15N-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="770" />
+              <mxPoint x="1180" y="770" />
+              <mxPoint x="1180" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-78" value="медицинские данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-77">
+          <mxGeometry x="-0.0144" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-16" target="JNCBEwlya2eb7LY5L15N-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-85" value="логи" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-79">
+          <mxGeometry x="-0.1849" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-5" target="JNCBEwlya2eb7LY5L15N-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-86" value="логи" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-80">
+          <mxGeometry x="0.3857" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.31;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-23" target="JNCBEwlya2eb7LY5L15N-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-87" value="логи" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-81">
+          <mxGeometry x="0.4886" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-7" target="JNCBEwlya2eb7LY5L15N-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-88" value="логи" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-82">
+          <mxGeometry x="0.3723" y="5" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNCBEwlya2eb7LY5L15N-32" target="JNCBEwlya2eb7LY5L15N-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-89" value="логи" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNCBEwlya2eb7LY5L15N-83">
+          <mxGeometry x="0.0835" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNCBEwlya2eb7LY5L15N-91" value="&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;ol data-sourcepos=&quot;37:1-72:0&quot;&gt;&lt;li data-sourcepos=&quot;37:1-41:101&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;Веб-портал для клиентов:&lt;/strong&gt;&lt;br&gt;&lt;/font&gt;&lt;ul data-sourcepos=&quot;38:5-41:101&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;38:5-38:74&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Позволяет клиентам записываться на прием, просматривать свои данные.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;39:5-39:94&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Хранение данных: PII (ФИО, телефон, email) шифруются и хранятся в базе данных пациентов.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;40:5-40:127&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Уничтожение данных: PII удаляются через 3 года после последнего обращения клиента, если нет активных медицинских записей.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;41:5-41:101&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Защита данных: Шифрование данных при хранении и передаче (HTTPS), контроль доступа (RBAC/ABAC).&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ul&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;42:1-46:96&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;&lt;strong&gt;Веб-портал для сотрудников ресепшена:&lt;/strong&gt;&lt;br&gt;&lt;/font&gt;&lt;ul data-sourcepos=&quot;43:5-46:96&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;43:5-43:79&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Позволяет сотрудникам управлять записями, просматривать данные пациентов.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;44:5-44:109&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Хранение данных: Данные о записях (дата, время, специалист) шифруются и хранятся в базе данных записей.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;45:5-45:83&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Уничтожение данных: Данные о записях удаляются через 1 год после даты приема.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;46:5-46:96&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Защита данных: Шифрование данных при хранении и передаче (HTTPS), контроль доступа (RBAC).&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ul&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;47:1-51:102&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;&lt;strong&gt;Сервис интеграции с лабораторией:&lt;/strong&gt;&lt;br&gt;&lt;/font&gt;&lt;ul data-sourcepos=&quot;48:5-51:102&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;48:5-48:57&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Получает результаты анализов из лаборатории по API.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;49:5-49:129&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Хранение данных: Результаты анализов шифруются и привязываются к медицинской карте пациента в хранилище медицинских данных.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;50:5-50:123&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Уничтожение данных: Результаты анализов удаляются через 5 лет после получения, если нет активных медицинских записей.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;51:5-51:102&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Защита данных: Шифрование данных при передаче (HTTPS, API keys), контроль доступа на уровне API.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ul&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;52:1-56:104&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;&lt;strong&gt;Сервис платежей:&lt;/strong&gt;&lt;br&gt;&lt;/font&gt;&lt;ul data-sourcepos=&quot;53:5-56:104&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;53:5-53:36&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Обрабатывает платежи клиентов.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;54:5-54:101&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Хранение данных: Данные о платежах шифруются и токенизируются, хранятся в базе данных платежей.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;55:5-55:123&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Уничтожение данных: Данные о платежах удаляются через 3 года после оплаты, если нет активных финансовых обязательств.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;56:5-56:104&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Защита данных: Шифрование данных при хранении и передаче (HTTPS), токенизация, PCI DSS compliance.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ul&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;57:1-61:102&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;&lt;strong&gt;Сервис аутентификации и авторизации:&lt;/strong&gt;&lt;br&gt;&lt;/font&gt;&lt;ul data-sourcepos=&quot;58:5-61:102&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;58:5-58:61&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Управляет аутентификацией и авторизацией пользователей.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;59:5-59:110&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Хранение данных: Данные пользователей (логины, пароли) шифруются и хранятся в базе данных пользователей.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;60:5-60:79&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Уничтожение данных: Данные пользователей удаляются при удалении аккаунта.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;61:5-61:102&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Защита данных: Шифрование данных при хранении и передаче (HTTPS), многофакторная аутентификация.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ul&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;62:1-66:63&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;&lt;strong&gt;Сервис аудита:&lt;/strong&gt;&lt;br&gt;&lt;/font&gt;&lt;ul data-sourcepos=&quot;63:5-66:63&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;63:5-63:57&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Собирает и анализирует логи действий пользователей.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;64:5-64:67&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Хранение данных: Логи действий хранятся в базе данных аудита.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;65:5-65:54&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Уничтожение данных: Логи аудита хранятся 10 лет.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;66:5-66:63&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Защита данных: Шифрование данных при хранении и передаче.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ul&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;67:1-72:0&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;&lt;strong&gt;Сервис хранения медицинских данных:&lt;/strong&gt;&lt;br&gt;&lt;/font&gt;&lt;ul data-sourcepos=&quot;68:5-72:0&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;68:5-68:53&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Хранит медицинские карты и результаты анализов.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;69:5-69:105&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Хранение данных: Медицинские карты и результаты анализов хранятся в зашифрованном хранилище файлов.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;70:5-70:138&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Уничтожение данных: Медицинские карты удаляются через 25 лет после последнего обращения пациента, результаты анализов - через 5 лет.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;71:5-72:0&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Защита данных: Шифрование данных при хранении, контроль доступа (RBAC).&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ul&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ol&gt;&lt;p data-sourcepos=&quot;73:1-73:32&quot;&gt;&lt;strong&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Общие принципы Data Privacy:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul data-sourcepos=&quot;75:1-83:0&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;75:1-75:44&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Шифрование данных при хранении и передаче.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;76:1-76:31&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Контроль доступа (RBAC/ABAC).&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;77:1-77:31&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Аудит действий пользователей.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;78:1-78:21&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Минимизация данных.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;79:1-79:23&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Обезличивание данных.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;80:1-80:46&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Удаление данных по истечении срока хранения.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;81:1-81:44&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Использование политик безопасности данных.&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li data-sourcepos=&quot;82:1-83:0&quot;&gt;&lt;font style=&quot;line-height: 50%; font-size: 14px;&quot;&gt;Использование тегирования данных для классификации данных по уровню конфиденциальности.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1364" width="1310" height="780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

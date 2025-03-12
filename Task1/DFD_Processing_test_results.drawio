@@ -1,0 +1,38 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Страница — 1" id="XbnoFESr4NhDlHLb5tGa">
+    <mxGraphModel dx="1427" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hk7HwWKOijgmfxDjGRKO-1" value="Обработка результатов анализов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hk7HwWKOijgmfxDjGRKO-2" value="Лаборатория" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hk7HwWKOijgmfxDjGRKO-3" value="Скан/PDF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="460" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hk7HwWKOijgmfxDjGRKO-4" value="Медицинская карта" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="600" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hk7HwWKOijgmfxDjGRKO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hk7HwWKOijgmfxDjGRKO-2" target="hk7HwWKOijgmfxDjGRKO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hk7HwWKOijgmfxDjGRKO-6" value="Результаты анализов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hk7HwWKOijgmfxDjGRKO-5">
+          <mxGeometry x="-0.0736" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hk7HwWKOijgmfxDjGRKO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.526;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hk7HwWKOijgmfxDjGRKO-3" target="hk7HwWKOijgmfxDjGRKO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hk7HwWKOijgmfxDjGRKO-8" value="Результаты анализов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hk7HwWKOijgmfxDjGRKO-7">
+          <mxGeometry x="-0.0123" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
